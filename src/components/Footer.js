@@ -26,7 +26,7 @@ const Footer = () => {
                 of type and scrambled it to make a type specimen book.
               </p>
             </div>
-            <div className="col-lg col-md-4 mb-5 mb-md-5">
+            <div className="col-lg-3 col-md-3 mb-5 mb-md-5">
               <div className="ftco-footer-widget mb-4">
                 <h2 className="location">Quick Links</h2>
               </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg col-md-4 mb-5 mb-md-5">
+            <div className="col-lg-3 col-md-3 mb-5 mb-md-5">
               <div className="ftco-footer-widget mb-4">
                 <h2 className="location">Important Links</h2>
               </div>
@@ -138,7 +138,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-lg col-md-4 mb-5 mb-md-5">
+            <div className="col-lg-3 col-md-4 mb-5 mb-md-5">
               <div className="ftco-footer-widget mb-4">
                 <h2 className="location">Contact Us</h2>
               </div>
@@ -184,10 +184,10 @@ const Footer = () => {
             <div className="col-md-12 text-center">
               <p>
                 Copyright © All rights reserved |
-                <a href="#!" target="_blank">
+                <NavLink to="https://gautamtech.com/" target="_blank">
                   {" "}
                   Gautam Tech Solutions
-                </a>
+                </NavLink>
               </p>
             </div>
           </div>

@@ -25,6 +25,20 @@ import Press from "./pages/Press";
 import Contact from "./pages/Contact";
 import PageNotFound from "./pages/PageNotFound";
 import Ncism from "./pages/Ncism";
+import AgadtantraEvumVidhiVaidyaka from "./pages/departments/AgadtantraEvumVidhiVaidyaka";
+import Dravyaguna from "./pages/departments/Dravyaguna";
+import Kaumarbhritya from "./pages/departments/Kaumarbhritya";
+import Kayachikitsa from "./pages/departments/Kayachikitsa";
+import KriyaSharir from "./pages/departments/KriyaSharir";
+import MaulikaSiddhant from "./pages/departments/MaulikaSiddhant";
+import Panchakarma from "./pages/departments/Panchakarma";
+import PrasutiTantraStriRoga from "./pages/departments/PrasutiTantraStriRoga";
+import RachnaSharir from "./pages/departments/RachnaSharir";
+import RasashastraBhaishajyaKalpana from "./pages/departments/RasashastraBhaishajyaKalpana";
+import RogaNidanEvumVikritiVigyan from "./pages/departments/RogaNidanEvumVikritiVigyan";
+import ShalakyaTantra from "./pages/departments/ShalakyaTantra";
+import ShalyaTantra from "./pages/departments/ShalyaTantra";
+import SwasthaVritta from "./pages/departments/SwasthaVritta";
 
 function App() {
   return (
@@ -36,14 +50,17 @@ function App() {
         <Route path="/ncism-mcr" element={<Ncism />} />
         <Route path="/about">
           <Route path="about-us" element={<About />} />
+          <Route path="principal" element={<Principal />} />
           <Route path="chairman-message" element={<ChairmanMessage />} />
           <Route path="mission-vision" element={<MissionVision />} />
         </Route>
         <Route path="/ncism">
-          <Route path="principal" element={<Principal />} />
           <Route path="teaching-staff" element={<TeachingStaff />} />
           <Route path="non-teaching-staff" element={<NonTeachingStaff />} />
-          <Route path="conferrence-activity" element={<ConferrenceActivity />} />
+          <Route
+            path="conferrence-activity"
+            element={<ConferrenceActivity />}
+          />
           <Route path="attendance-report" element={<AttendanceReport />} />
         </Route>
         <Route path="/facility">
@@ -56,20 +73,32 @@ function App() {
         </Route>
 
         <Route path="/department">
-          <Route path="maulika-siddhant" element={<ff />} />
-          <Route path="rachna-sharir" element={<Laboratory />} />
-          <Route path="kriya-sharir" element={<YogaCentre />} />
-          <Route path="dravyaguna" element={<HerbalGarden />} />
-          <Route path="rasashastra-bhaishajya-kalpana" element={<Canteen />} />
-          <Route path="roga-nidan-evum-vikriti-vigyan" element={<Transport />} />
-          <Route path="agadtantra-evum-vidhi-vaidyaka" element={<Transport />} />
-          <Route path="swastha-vritta" element={<Transport />} />
-          <Route path="kaumarbhritya" element={<Transport />} />
-          <Route path="panchakarma" element={<Transport />} />
-          <Route path="prasuti-tantra-stri-roga" element={<Transport />} />
-          <Route path="kayachikitsa" element={<Transport />} />
-          <Route path="shalya-tantra" element={<Transport />} />
-          <Route path="shalakya-tantra" element={<Transport />} />
+          <Route path="maulika-siddhant" element={<MaulikaSiddhant />} />
+          <Route path="rachna-sharir" element={<RachnaSharir />} />
+          <Route path="kriya-sharir" element={<KriyaSharir />} />
+          <Route path="dravyaguna" element={<Dravyaguna />} />
+          <Route
+            path="rasashastra-bhaishajya-kalpana"
+            element={<RasashastraBhaishajyaKalpana />}
+          />
+          <Route
+            path="roga-nidan-evum-vikriti-vigyan"
+            element={<RogaNidanEvumVikritiVigyan />}
+          />
+          <Route
+            path="agadtantra-evum-vidhi-vaidyaka"
+            element={<AgadtantraEvumVidhiVaidyaka />}
+          />
+          <Route path="swastha-vritta" element={<SwasthaVritta />} />
+          <Route path="kaumarbhritya" element={<Kaumarbhritya />} />
+          <Route path="panchakarma" element={<Panchakarma />} />
+          <Route
+            path="prasuti-tantra-stri-roga"
+            element={<PrasutiTantraStriRoga />}
+          />
+          <Route path="kayachikitsa" element={<Kayachikitsa />} />
+          <Route path="shalya-tantra" element={<ShalyaTantra />} />
+          <Route path="shalakya-tantra" element={<ShalakyaTantra />} />
         </Route>
 
         <Route path="/media">
@@ -80,6 +109,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
+
       <Footer />
     </>
   );

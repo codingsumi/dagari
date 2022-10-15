@@ -7268,10 +7268,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Work Sans", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.8;
+  font-size: 14px;
+  /* line-height: 1.8; */
   font-weight: 400;
-  color: #b3b3b3; }
+  color: #707070; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8824,6 +8824,16 @@ textarea.form-control {
 .quick .do-list li span {
   color: #425f57;
   font-size: 20px;
+}
+.quick .do-list li a {
+  font-size: 14px;
+  font-weight: 400;
+  list-style: none;
+  color: #425f578c;
+}
+.quick .do-list li:hover a {
+  font-weight: 500;
+  color: #425f57;
 }
 .quick .do-list li {
   border-bottom: 1px dotted #425f57;

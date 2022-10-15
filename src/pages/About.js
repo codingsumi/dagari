@@ -1,8 +1,19 @@
-import React from 'react'
+// import { useState, useEffect } from "react";
+// import Loader from '../components/Loader';
+
 
 const About = () => {
+  // const [loading, setLoading] = useState(false);
+
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 2000);
+  // }, []);
   return (
     <>
+   {/* { loading ? <Loader /> : ( */}
     <div>
         <section className="hero-wrap mt-5 bg-light">
           <div className="overlay" />
@@ -24,6 +35,7 @@ const About = () => {
           </div>
         </section>
         </div>
+   {/* )} */}
     </>
   )
 }

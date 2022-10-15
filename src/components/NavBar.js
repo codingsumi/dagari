@@ -59,7 +59,7 @@ const NavBar = () => {
                     Principal
                   </NavLink>
                   <NavLink className="dropdown-item" to="/about/mission-vision">
-                    Vision &amp; Mission
+                    Mission &amp; Vision 
                   </NavLink>
 
                   <NavLink
@@ -161,46 +161,46 @@ const NavBar = () => {
                   DEPARTMENTS
                 </NavLink>
                 <div className="dropdown-menu">
-                  <NavLink className="dropdown-item" to="/department/laboratories">
+                  <NavLink className="dropdown-item" to="/department/maulika-siddhant">
                     Maulika Siddhant
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/laboratories">
+                  <NavLink className="dropdown-item" to="/department/rachna-sharir">
                     Rachna Sharir
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/yoga-centre">
+                  <NavLink className="dropdown-item" to="/department/kriya-sharir">
                     Kriya Sharir
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/herbal-garden">
+                  <NavLink className="dropdown-item" to="/department/dravyaguna">
                     Dravyaguna
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/canteen">
+                  <NavLink className="dropdown-item" to="/department/rasashastra-bhaishajya-kalpana">
                     Rasashastra and Bhaishajya Kalpana
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/roga-nidan-evum-vikriti-vigyan">
                     Roga Nidan Evum Vikriti Vigyan
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/agadtantra-evum-vidhi-vaidyaka">
                     Agadtantra Evum Vidhi Vaidyaka
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/swastha-vritta">
                     Swastha Vritta
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/kaumarbhritya">
                     Kaumarbhritya
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/panchakarma">
                     Panchakarma
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/prasuti-tantra-stri-roga">
                     Prasuti Tantra and Stri Roga
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/kayachikitsa">
                     Kayachikitsa
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/shalya-tantra">
                     Shalya Tantra
                   </NavLink>
-                  <NavLink className="dropdown-item" to="/department/transport">
+                  <NavLink className="dropdown-item" to="/department/shalakya-tantra">
                     Shalakya Tantra
                   </NavLink>
                 </div>
